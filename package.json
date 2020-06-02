@@ -12,9 +12,16 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "ant": "^0.2.0",
+    "antd": "^4.2.0",
     "dom": "0.0.3",
+    "eslint": "^5.16.0",
+    "isomorphic-unfetch": "^3.0.0",
     "next": "^9.2.2",
     "react": "^16.12.0",
     "react-dom": "^16.12.0"
+  },
+  "devDependencies": {
+    "autodll-webpack-plugin": "^0.4.2"
   }
 }

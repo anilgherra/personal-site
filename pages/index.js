@@ -1,12 +1,8 @@
-import Link from 'next/link';
+import Layout from '../components/SiteLayout';
 
-export default function Index() {
-  return (
-    <div>
-      <Link href="/about" title ="About Page">
-          <a>About Page</a>
-      </Link>
-      <p>Hello Next.js</p>
-    </div>
-  );
-}
+
+const Index = props => (
+  <Layout></Layout>
+);
+
+export default Index;
